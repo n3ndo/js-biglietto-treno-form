@@ -8,10 +8,28 @@
     <title>Calcolo del prezzo del biglietto</title>
 </head>
 <body>
-        <input type="text" class="form-control" id="km" placeholder="inserire i km da percorrere">
-        <input type="text" class="form-control" id="eta" placeholder="inserire la tua età">
-        <button class="btn btn-primary">Submit</button>
-    <p id="test"></p>
+    <main>
+        <header>
+            <h2 class="text-center fw-semibold text-white text-uppercase pt-3">calcola il tuo biglietto</h2>
+        </header>
+        <section class="data">
+            <div class="row jc-center mt-3 ">
+                <input type="text" name="name" id="name" class="col-3 rounded p-2" placeholder="inserire il tuo nome">
+                <input class="col-3 mx-2 rounded p-2" type="text" id="km" placeholder="inserire i km da percorrere">
+                <input type="text" class="col-3 rounded p-2" id="eta" placeholder="inserire la tua età">
+            </div>
+            <div class="row jc-center mt-2">
+                <button class="col-4  btn btn-primary">Genera biglietto</button>
+            </div>
+        </section>
+        <section class="info">
+            <div class="row">
+                <div class="col-12 text-white text-center fw-semibold">
+                    <p id="test"></p>
+                </div>
+            </div>
+        </section>
+    </main>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
